@@ -1,0 +1,30 @@
+# Python Virtual Environment (DO NOT COMMIT)
+lab_pneumonia/.venv/
+lab_pneumonia/venv/
+lab_pneumonia/env/
+lab_pneumonia/ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Large files that shouldn't be in repository
+# Remove the exe file from assets if it's not needed
+appcontrole/assets/model/*.exe
+
+# Large model files (if needed, use Git LFS)
+# Uncomment if models exceed GitHub limits
+# *.h5
+# *.pyd (if over 100MB)
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
